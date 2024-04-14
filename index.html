@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Temperature Conversion</title>
+</head>
+
+<body>
+
+    <video autoplay muted loop id="myVideo">
+        <source src="Pinterest.mp4" type="video/mp4">
+      </video>
+
+    <form>
+        <h1>Temperature Conversion</h1><br>
+        <input type="text" id="textBox"><br>
+    
+        <input type="radio" id="toCelsius" name="tempConversion">
+        <label>Celsius ➡ Fahrenheit</label><br>
+    
+        <input type="radio" id="toFahrenheit" name="tempConversion">
+        <label>Fahrenheit ➡ Celsius</label><br>
+
+        <button type="button" onclick="convert()">Submit</button>
+
+        <p id="result"></p>
+    </form>
+  
+    <script src="main.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,59 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url("background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1{
+    margin-bottom: 0%;  
+}
+
+form{
+    background-image:url("background.jpg") ;
+    text-align: center;
+    background-color: hsla(212, 100%, 75%, 0.959);
+    width: 50%;
+    height: 270px;
+    margin: auto;
+    border: 1px solid hsl(197, 100%, 83%);
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px hsla(0, 0%, 99%, 0.315);
+}
+
+#textBox{
+    text-align: center;
+    font-size: 1.2em;
+    border-radius: 3px;
+    border-style: none;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+button{
+ margin-top: 15px;
+ font-size: 1.2em;
+ font-family: 'Times New Roman', Times, serif;
+ border-radius: 5px;
+ border-style: none;
+ cursor:pointer;
+ padding: 8px 15px;
+ font-weight: bold;
+}
+
+button:hover{
+    background-color: rgb(122, 129, 134);
+}
+
+p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2em;
+    font-weight: bold;
+}
